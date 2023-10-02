@@ -6,7 +6,7 @@ const CarCard = ({ car }) => {
         <div className="car-card">
             <h3>{car.name}</h3>
             <p>Brand: {car.brand}</p>
-            {/* Add more details and styling */}
+            <img src={car.img} />
         </div>
     );
 };
