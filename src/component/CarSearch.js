@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import CarList from './CarList';
 import Pagination from './Pagination';
+import './CarSearch.css'
 
 const CarSearch = ({ cars }) => {
     const { page } = useParams();
@@ -34,18 +35,22 @@ const CarSearch = ({ cars }) => {
 
     return (
         <div className="car-search">
-            <input
-                type="text"
-                placeholder="Search cars by name"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            <CarList cars={currentCars} />
-            <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                onPageChange={handlePageChange}
-            />
+            <div>
+                <div className='car-search-2'>
+                    <input
+                        type="text"
+                        placeholder="Search..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                    />
+                </div>
+                <CarList cars={currentCars} />
+                <Pagination
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    onPageChange={handlePageChange}
+                />
+            </div>
         </div>
     );
 };
