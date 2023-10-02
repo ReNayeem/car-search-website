@@ -1,4 +1,5 @@
 import React from 'react';
+import './Pagination.css'
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     // Calculate the range of page numbers to display
@@ -23,30 +24,31 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <nav>
             <ul className="pagination">
                 {currentPage > 1 && (
-                    <li className="page-item">
+                    <p
+                        className="page-item">
                         <button className="page-link" onClick={() => onPageChange(currentPage - 1)}>
                             Previous
                         </button>
-                    </li>
+                    </p>
                 )}
 
                 {pageNumbers.map((page) => (
-                    <li
+                    <p
                         key={page}
                         className={`page-item ${currentPage === page ? 'active' : ''}`}
                     >
                         <button className="page-link" onClick={() => onPageChange(page)}>
                             {page}
                         </button>
-                    </li>
+                    </p>
                 ))}
 
                 {currentPage < totalPages && (
-                    <li className="page-item">
+                    <p className="page-item">
                         <button className="page-link" onClick={() => onPageChange(currentPage + 1)}>
                             Next
                         </button>
-                    </li>
+                    </p>
                 )}
             </ul>
         </nav>

@@ -1,0 +1,105 @@
+.car-card {
+    width: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .9rem .2rem 0 .2rem;
+    border-radius: 2rem;
+    border: 1px solid #f4f6f9;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.car-card-2 {
+    width: 400px;
+    background-color: transparent;
+}
+
+img {
+    width: 400px;
+    border-radius: 1rem;
+}
+
+h5 {
+    display: flex;
+    align-items: center;
+    width: 240px;
+}
+
+hr {
+    width: 380px;
+    margin-top: -.35rem;
+    border: 1px solid #d0d0d0;
+}
+
+.first-section {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    margin-top: -.8rem;
+    margin-bottom: .4rem;
+    color: #383851;
+    align-items: center;
+    padding: 0 .6rem;
+}
+
+.first-section h5 {
+    border: 1px dotted #4999ec;
+    border-radius: .8rem;
+    padding: .2rem .6rem;
+    width: auto;
+}
+
+.second-section,
+.third-section {
+    display: flex;
+    margin-top: -1.8rem;
+    color: #58637b;
+    align-items: center;
+    padding: 0 .6rem;
+}
+
+.second-section i,
+.third-section i {
+    color: #4999ec;
+    font-size: 1rem;
+    padding-right: .3rem;
+}
+
+.fourth-section {
+    display: flex;
+    color: #383851;
+    align-items: center;
+    padding: 0 .6rem;
+    justify-content: space-between;
+    margin-top: -.4rem;
+    border-radius: 1rem;
+}
+
+.fourth-section span {
+    font-size: 12px;
+}
+
+.fourth-section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-section i {
+    color: #4999ec;
+    background-color: #c2d9f4;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.fourth-section button {
+    color: #f8fcfd;
+    background-color: #4999ed;
+    border: none;
+    font-size: .9rem;
+    padding: .4rem .9rem;
+    border-radius: .5rem;
+
+}

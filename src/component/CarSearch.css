@@ -5,11 +5,12 @@
 
 .car-search-2 {
     background-color: #f1f5fb;
-    min-width: 1300px;
+    max-width: 1300px;
     width: 100%;
     padding: 1rem 1.5rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 1.5rem;
 }
 
 input {

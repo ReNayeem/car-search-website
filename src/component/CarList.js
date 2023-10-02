@@ -1,6 +1,7 @@
 // CarList.js
 import React from 'react';
 import CarCard from './CarCard';
+import './CarList.css'
 
 const CarList = ({ cars }) => {
     return (

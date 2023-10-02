@@ -7,6 +7,8 @@ const cars = [
   { id: 5, name: 'Audi E-Tron', seat: '4 People', type: 'Electric', mileage: '22.1km/Full Charge', drive: 'Automatic', cost: '$750', year: '2023', img: 'https://i.ibb.co/pKrx5S5/Screenshot-2023-10-02-at-14-15-48-audi-e-tron-Google-Search.png' },
   { id: 6, name: 'Honda Civic', seat: '5 People', type: 'Gasoline', mileage: '7.1km/1-litre', drive: 'Automatic', cost: '$500', year: '2023', img: 'https://i.ibb.co/5Wn8wLT/Screenshot-2023-10-02-at-14-20-03-honda-civic-Google-Search.png' },
   { id: 7, name: 'Hyundai CRETA', seat: '5 People', type: 'Gasoline', mileage: '7.1km/1-litre', drive: 'Automatic', cost: '$430', year: '2023', img: 'https://i.ibb.co/8DVfrp3/Screenshot-2023-10-02-at-14-22-47-hyndai-creta-Google-Search.png' },
+  { id: 8, name: 'Honda Civic Limited', seat: '5 People', type: 'Gasoline', mileage: '7.1km/1-litre', drive: 'Automatic', cost: '$700', year: '2023', img: 'https://i.ibb.co/5Wn8wLT/Screenshot-2023-10-02-at-14-20-03-honda-civic-Google-Search.png' },
+  { id: 9, name: 'Cadillac Excalade Limited', seat: '4 People', type: 'Gasoline', mileage: '7.7km/1-litre', drive: 'Automatic', cost: '$820', year: '2020', img: 'https://i.ibb.co/bHYMSPk/Screenshot-2023-10-02-at-14-11-27-cadillac-escalade-Google-Search.png' },
 ];
 
 export default cars;
